@@ -3,4 +3,4 @@
 # function Labyrinth_Forest:teleport_of_labyrinth/tp_command/_goal
 
 # to goal
-tp @p[r=3] -18 2 12 0 0
+tp @p[r=3] -3917 57 -5454 0 0
