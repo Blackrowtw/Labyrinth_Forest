@@ -5,8 +5,14 @@
 # load chunk from P
 function Labyrinth_Forest:spwaner_set/chunk_loader_fromP
 
-# 生成盔甲架 
-function Labyrinth_Forest:spwaner_set/locate_AS_fromP
+# 生成盔甲架P 作為座標
+function Labyrinth_Forest:spwaner_set/AS_P_spawn unless @e[tag=L_F_AS_P,type=armor_stand]
+
+# 生成其他盔甲架 
+function Labyrinth_Forest:spwaner_set/locate_AS_fromP if @e[tag=L_F_AS_P,type=armor_stand]
+
+#生成怪物磚
+
 #牛
 execute @e[tag=L_F_AS_A] ~ ~ ~ function Labyrinth_Forest:spwaner_set/spawner/farming_cow
 #兔

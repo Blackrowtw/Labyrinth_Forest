@@ -1,15 +1,7 @@
 # 以P點為起點 利用命令方塊定位並生成盔甲架
 # Usage:
-# function Labyrinth_Forest:spwaner_set/locate_AS_fromP
+# function Labyrinth_Forest:spwaner_set/locate_AS_fromP 
 
-# 讀取目標chunk
-function Labyrinth_Forest:spwaner_set/chunk_loader_fromP
-# function Labyrinth_Forest:spwaner_set/chunk_loader_fromP
-# 清除既有盔甲架
-kill @e[tag=L_F_AS,type=armor_stand]
-
-# 在4格高處 召喚定位點 P
-summon armor_stand ~ ~4 ~ {Tags:["L_F_AS","L_F_AS_P"],CustomName:"P",CustomNameVisible:0,NoGravity:1b,Invulnerable:1,PersistenceRequired:1,DisabledSlots:2039583}
 # 以P為座標execute定位點 A
 execute @e[tag=L_F_AS_P] ~-192 ~ ~-192  /summon armor_stand ~ ~ ~ {Tags:["L_F_AS","L_F_AS_A"],CustomName:"A",CustomNameVisible:0,NoGravity:1b,Invulnerable:1,PersistenceRequired:1,DisabledSlots:2039583}
 # 以P為座標execute定位點 B
