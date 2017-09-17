@@ -42,3 +42,22 @@ summon villager ~ ~1.5 ~ {CustomName:"§6§k§l12345678§r",CustomNameVisible:1,
 
 # 傳送附近的盔甲座到自己的位置 範圍(r)=3
 /tp @e[type=armor_stand,r=3] @p
+
+
+
+# 阿替之歌
+/summon minecraft:armor_stand ~ ~3 ~ {CustomName:"閃亮的時代 讓我們打場漂亮勝戰",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+/summon minecraft:armor_stand ~ ~2.75 ~ {CustomName:"就算再不相信 我們會擁有超級魔力",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+/summon minecraft:armor_stand ~ ~2.5 ~ {CustomName:"像螞蟻 默默做自已",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+/summon minecraft:armor_stand ~ ~2.25 ~ {CustomName:"貢獻每一個小小心力 集結成奇蹟",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+
+/summon minecraft:armor_stand ~ ~2 ~ {CustomName:"沒有懷疑 沒有怨言 走進了人群",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+/summon minecraft:armor_stand ~ ~1.75 ~ {CustomName:"點點滴滴 你會發現 我們的魔力",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+/summon minecraft:armor_stand ~ ~1.5 ~ {CustomName:"大街小巷裏 一步一個腳印",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+/summon minecraft:armor_stand ~ ~1.25 ~ {CustomName:"散播幸福也分享快樂",CustomNameVisible:1,Invisible:1,Marker:1,NoGravity:1}
+
+
+
+
+
+
